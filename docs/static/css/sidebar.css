@@ -44,35 +44,46 @@
 }
 
 .sidebar-nav {
-    width: 160px;
-    height: 325px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 25px;
+
+    width: 160px;
+    padding: 15px 0px;
+
     box-shadow: 0px 0px 10px var(--light-shadow-color);
     border-radius: 15px;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 15px 0px;
 }
 
 .sidebar-nav a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3px;
+
+    width: 110px;
     padding: 10px;
     border: none;
     border-radius: 10px;
-    cursor: pointer;
-    transition: 0.3s;
     box-shadow: 0px 0px 10px rgb(0 1 0 / 25%);
-    width: 100px;
+
     text-align: center;
     text-decoration: none;
-    color: black;
+
+    cursor: pointer;
     transition-duration: 0.25s;
 }
 
 .sidebar-nav a:hover {
     transition-duration: 0.25s;
     padding: 12px;
+}
+
+.sidebar-nav a img {
+    width: 16px;
+    height: 16px;
 }
 
 .sidebar-nav a:active#omni {
