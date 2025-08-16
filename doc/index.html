@@ -4,12 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Rafael Nunes</title>
+
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/sidebar.css">
     <link rel="stylesheet" href="styles/navbar.css">
-    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="projetos.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <title>Portfólio - Rafael Nunes</title>
 </head>
 
 <body>
@@ -20,17 +25,20 @@
             <p>Desenvolvedor de Software | Fullstack | RPA</p>
         </div>
 
-        <nav class="project-nav">
-            <a href="#Omni" id="omni"><img src="assets/sidebar/omni-icon.png"/> Omni</a>
-            <a href="#Tecsus" id="tecsus"><img src="assets/sidebar/tecsus-icon.png"/> Tecsus</a>
-            <a href="#CtrlA" id="ctrla"><img src="assets/sidebar/ctrla-icon.png"/> Ctrl A</a>
-            <a href="#Hermez" id="hermez"><img src="assets/sidebar/hermez-icon.png"/> Hermez</a>
-            <a href="#Cicovale" id="cicovale"><img src="assets/sidebar/cicovale-icon.png"/> Cicovale</a>
+        <nav class="sidebar-nav">
+            <!-- <a href="#Omni" id="omni"><img src="assets/sidebar/omni-icon.png" /> Omni</a> -->
+            <!-- <a href="#Tecsus" id="tecsus"><img src="assets/sidebar/tecsus-icon.png" /> Tecsus</a> -->
+            <!-- <a href="#CtrlA" id="ctrla"><img src="assets/sidebar/ctrla-icon.png" /> Ctrl A</a> -->
+            <!-- <a href="#Hermez" id="hermez"><img src="assets/sidebar/hermez-icon.png" /> Hermez</a> -->
+
+            <a href="#Cicovale" id="cicovale"><img src="assets/sidebar/cicovale-icon.png" /> Cicovale</a>
         </nav>
 
         <div class="social">
-            <a href="https://github.com/Rafael-Nunes-Silva" target="_blank"><img src="assets/sidebar/github-icon.png" alt="GitHub"></a>
-            <a href="https://www.linkedin.com/in/rafael-nunes-silva" target="_blank"><img src="assets/sidebar/linkedin-icon.png" alt="LinkedIn"></a>
+            <a href="https://github.com/Rafael-Nunes-Silva" target="_blank"><img src="assets/sidebar/github-icon.png"
+                    alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/rafael-nunes-silva" target="_blank"><img
+                    src="assets/sidebar/linkedin-icon.png" alt="LinkedIn"></a>
         </div>
     </aside>
 
@@ -38,13 +46,33 @@
         <header class="navbar">
             <a href="#">Projetos</a>
 
-
             <!-- <a href="#">Página Inicial</a> -->
             <!-- <a href="paginas/sobre/sobre.html">Sobre</a> -->
             <!-- <a href="paginas/projetos/projetos.html">Projetos</a> -->
             <!-- <a href="paginas/certificados/certificados.html">Certificados</a> -->
             <!-- <a href="paginas/contato/contato.html">Contato</a> -->
         </header>
+
+        <section class="conteudo">
+            <div class="card" id="Cicovale">
+                <h3 class="card-titulo">CICOVALE</h3>
+                <div class="card-conteudo">
+                    <img class="card-img" id="cicovale" src="assets/projetos/cicovale.png" alt="Cicovale">
+                    <div class="card-text">
+                        <p class="card-descricao">
+                            Esse foi o API do primeiro semestre de DSM na FATEC. O <span id="cicovale">CICOVALE</span> (Central Informativa de
+                            COVID longa do Vale do Paraíba) é um sistema que possibilita ver e comparar dados sobre o
+                            impacto da COVID longa através de fontes públicas do Sistema Único de Saúde (SUS).
+                        </p>
+                        <div class="card-extra">
+                            <p>Desenvolvido com Python/Flask, HTML, CSS e JS.</p>
+                            <br>
+                            <p>Acesse o projeto completo no <a href="https://github.com/equipedevo/API_1" target="_blank">Github</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
