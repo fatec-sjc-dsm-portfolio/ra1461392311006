@@ -1,12 +1,26 @@
 :root {
     --light-shadow-color: rgba(0, 0, 0, 25%);
     --medium-shadow-color: rgba(0, 0, 0, 50%);
-    
+
+    --omni-color: rgb(64 64 64);
+    --tecsus-color: rgb(63 151 217);
+    --ctrla-color: rgb(52 64 131);
+    --hermez-color: rgb(244 50 74);
+    --cicovale-color: rgb(0 48 255);
+
     --omni-shadow-color: rgb(64 64 64 / 25%);
     --tecsus-shadow-color: rgb(63 151 217 / 25%);
     --ctrla-shadow-color: rgb(52 64 131 / 25%);
     --hermez-shadow-color: rgb(244 50 74 / 25%);
     --cicovale-shadow-color: rgb(0 48 255 / 25%);
+
+    --sidebar-width: 392px;
+    --navbar-height: 70px;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
 }
 
 html,
@@ -28,4 +42,18 @@ main {
     gap: 20px;
 
     width: 100%;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    margin-top: calc(var(--navbar-height) + 20px);
+    margin-left: calc(var(--sidebar-width) + 20px);
+
+    min-height: calc(100% - calc(var(--navbar-height) + 20px));
+    padding: 25px;
+    box-shadow: 0px 0px 10px var(--light-shadow-color);
+    border-radius: 15px 0px 0px 15px;
 }
