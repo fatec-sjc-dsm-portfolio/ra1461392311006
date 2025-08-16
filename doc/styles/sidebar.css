@@ -1,0 +1,86 @@
+.sidebar {
+    width: 348px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 4px 0 10px var(--light-shadow-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.profile-pic {
+    width: 192px;
+    height: 192px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 10px var(--medium-shadow-color);
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sidebar p {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.project-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    box-shadow: 0px 0px 10px var(--light-shadow-color);
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px 20px;
+}
+
+.project-nav a {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px rgb(0 1 0 / 25%);
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.project-nav a#omni {
+    box-shadow: 0px 0px 10px var(--omni-shadow-color);
+}
+.project-nav a#tecsus {
+    box-shadow: 0px 0px 10px var(--tecsus-shadow-color);
+}
+.project-nav a#ctrla {
+    box-shadow: 0px 0px 10px var(--ctrla-shadow-color);
+}
+.project-nav a#hermez {
+    box-shadow: 0px 0px 10px var(--hermez-shadow-color);
+}
+.project-nav a#cicovale {
+    box-shadow: 0px 0px 10px var(--cicovale-shadow-color);
+}
+
+.project-nav a:hover {
+    background: #ddd;
+}
+
+.social {
+    margin-top: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.social img {
+    width: 28px;
+    height: 28px;
+}

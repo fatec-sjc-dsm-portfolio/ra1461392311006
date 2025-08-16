@@ -1,0 +1,31 @@
+:root {
+    --light-shadow-color: rgba(0, 0, 0, 25%);
+    --medium-shadow-color: rgba(0, 0, 0, 50%);
+    
+    --omni-shadow-color: rgb(64 64 64 / 25%);
+    --tecsus-shadow-color: rgb(63 151 217 / 25%);
+    --ctrla-shadow-color: rgb(52 64 131 / 25%);
+    --hermez-shadow-color: rgb(244 50 74 / 25%);
+    --cicovale-shadow-color: rgb(0 48 255 / 25%);
+}
+
+html,
+body {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    width: 100%;
+    min-width: 100%;
+
+    height: 100%;
+    min-height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 100%;
+}
