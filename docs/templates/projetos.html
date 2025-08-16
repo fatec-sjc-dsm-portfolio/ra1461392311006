@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/css/sidebar.css">
+    <link rel="stylesheet" href="../static/css/navbar.css">
+    <link rel="stylesheet" href="../static/css/projetos.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <title>Portfólio - Rafael Nunes</title>
+</head>
+
+<body>
+    <aside class="sidebar">
+        <div class="image-box">
+            <img src="../static/imagens/imagens/perfil.png" alt="Foto de Perfil" class="profile-pic">
+            <h2>Rafael Nunes de Farias Silva</h2>
+            <p>Desenvolvedor de Software | Fullstack | RPA</p>
+        </div>
+
+        <nav class="sidebar-nav">
+            <!-- <a href="#Omni" id="omni"><img src="../static/imagens/sidebar/omni-icon.png" /> Omni</a> -->
+            <!-- <a href="#Tecsus" id="tecsus"><img src="../static/imagens/sidebar/tecsus-icon.png" /> Tecsus</a> -->
+            <!-- <a href="#CtrlA" id="ctrla"><img src="../static/imagens/sidebar/ctrla-icon.png" /> Ctrl A</a> -->
+            <!-- <a href="#Hermez" id="hermez"><img src="../static/imagens/sidebar/hermez-icon.png" /> Hermez</a> -->
+            <a href="#Cicovale" id="cicovale"><img src="../static/imagens/sidebar/cicovale-icon.png" /> Cicovale</a>
+        </nav>
+
+        <div class="social">
+            <a href="https://github.com/Rafael-Nunes-Silva" target="_blank"><img
+                    src="../static/imagens/sidebar/github-icon.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/rafael-nunes-silva" target="_blank"><img
+                    src="../static/imagens/sidebar/linkedin-icon.png" alt="LinkedIn"></a>
+        </div>
+    </aside>
+
+    <main class="main">
+        <header class="navbar">
+            <a href="../index.html">Página Inicial</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="#">Projetos</a>
+            <a href="certificados.html">Certificados</a>
+            <a href="contato.html">Contato</a>
+        </header>
+
+        <section class="conteudo">
+            <div class="card" id="Cicovale">
+                <h3 class="card-titulo">CICOVALE</h3>
+                <div class="card-conteudo">
+                    <img class="card-img" id="cicovale" src="../static/imagens/projetos/cicovale.png" alt="Cicovale">
+                    <div class="card-text">
+                        <p class="card-descricao">
+                            Esse foi o API do primeiro semestre de DSM na FATEC. O <span id="cicovale">CICOVALE</span>
+                            (Central Informativa de COVID longa do Vale do Paraíba) é um sistema que possibilita ver e
+                            comparar dados sobre o impacto da COVID longa através de fontes públicas do Sistema Único de
+                            Saúde (SUS).
+                        </p>
+                        <div class="card-extra">
+                            <p>Desenvolvido com Python/Flask, HTML, CSS e JS.</p>
+                            <br>
+                            <p>Acesse o projeto completo no <a href="https://github.com/equipedevo/API_1"
+                                    target="_blank">Github</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
