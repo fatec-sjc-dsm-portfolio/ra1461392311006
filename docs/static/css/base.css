@@ -80,11 +80,18 @@ main {
     font-weight: bold;
 }
 
+.card-subtitulo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .card-conteudo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 10px;
+
+    margin-bottom: 10px;
 }
 
 .card-img {
@@ -98,6 +105,8 @@ main {
     flex-direction: column;
     justify-content: space-between;
     padding: 5px 0px;
+
+    text-align: justify;
 }
 
 .card-descricao {
