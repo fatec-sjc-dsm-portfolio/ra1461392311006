@@ -3,17 +3,11 @@
     flex-direction: column;
     align-items: center;
 
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-
     background-color: white;
 
     width: var(--sidebar-width);
     padding: 75px 0px 0px 0px;
     box-shadow: 4px 0 10px var(--light-shadow-color);
-    border-radius: 0px 15px 15px 0px;
 }
 
 .image-box {
@@ -79,6 +73,10 @@
 .sidebar-nav a:hover {
     transition-duration: 0.25s;
     padding: 12px;
+}
+
+.sidebar-nav a:active{
+    background-color: var(--light-shadow-color);
 }
 
 .sidebar-nav a img {
@@ -159,3 +157,19 @@
     width: 30px;
     height: 30px;
 }
+
+
+
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+    }
+}
+
+/* 
+@media (min-width: 1024px) {}
+
+@media (min-width: 1920px) {} */

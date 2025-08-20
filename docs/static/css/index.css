@@ -1,6 +1,6 @@
 .conteudo {
-    padding: 150px 25px;
-    gap: 75px;
+    padding: 50px 25px;
+    gap: 50px;
 }
 
 .hero {
@@ -26,11 +26,11 @@
 }
 
 .card {
-    width: 60%;
+    width: 100%;
 }
 
 .card-conteudo {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 
     width: 100%;
@@ -129,8 +129,27 @@
     padding-left: 30px;
 }
 
-@media (max-width: 600px) {
+
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {
+    .conteudo {
+        padding: 150px 25px;
+        gap: 75px;
+    }
+
+    .card-conteudo {
+        flex-direction: row;
+    }
+
     .stack-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1720px) {
+    .card {
+        width: 60%;
     }
 }
