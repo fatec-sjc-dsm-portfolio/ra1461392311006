@@ -1,6 +1,10 @@
 .conteudo {
-    padding: 50px 25px;
+    padding: 0px 50px;
     gap: 50px;
+}
+
+footer {
+    margin: 0px -50px;
 }
 
 .hero {
@@ -135,8 +139,12 @@
 
 @media (min-width: 1024px) {
     .conteudo {
-        padding: 150px 25px;
+        padding: 150px 25px 0px 25px;
         gap: 75px;
+    }
+
+    footer {
+        margin: 0px -25px;
     }
 
     .card-conteudo {
