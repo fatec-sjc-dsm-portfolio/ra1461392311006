@@ -1,3 +1,7 @@
+img#clara {
+    box-shadow: 0px 0px 10px var(--clara-shadow-color);
+    font-weight: bold;
+}
 img#omni {
     box-shadow: 0px 0px 10px var(--omni-shadow-color);
     font-weight: bold;
@@ -19,6 +23,10 @@ img#cicovale {
     font-weight: bold;
 }
 
+span#clara {
+    color: var(--clara-color);
+    font-weight: bold;
+}
 span#omni {
     color: var(--omni-color);
     font-weight: bold;

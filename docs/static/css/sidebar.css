@@ -84,6 +84,10 @@
     height: 16px;
 }
 
+.sidebar-nav a:active#clara {
+    background-color: var(--clara-shadow-color);
+}
+
 .sidebar-nav a:active#omni {
     background-color: var(--omni-shadow-color);
 }
@@ -102,6 +106,10 @@
 
 .sidebar-nav a:active#cicovale {
     background-color: var(--cicovale-shadow-color);
+}
+
+.sidebar-nav a#clara {
+    box-shadow: 0px 0px 10px var(--clara-shadow-color);
 }
 
 .sidebar-nav a#omni {

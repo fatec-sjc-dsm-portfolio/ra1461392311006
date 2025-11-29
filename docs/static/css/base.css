@@ -2,12 +2,14 @@
     --light-shadow-color: rgba(0, 0, 0, 25%);
     --medium-shadow-color: rgba(0, 0, 0, 50%);
 
+    --clara-color: rgb(155, 125, 246);
     --omni-color: rgb(64 64 64);
     --tecsus-color: rgb(63 151 217);
     --ctrla-color: rgb(52 64 131);
     --hermez-color: rgb(244 50 74);
     --cicovale-color: rgb(0 48 255);
 
+    --clara-shadow-color: rgb(155 125 246 / 25%);
     --omni-shadow-color: rgb(64 64 64 / 25%);
     --tecsus-shadow-color: rgb(63 151 217 / 25%);
     --ctrla-shadow-color: rgb(52 64 131 / 25%);
