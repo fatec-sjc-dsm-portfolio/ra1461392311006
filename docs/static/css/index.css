@@ -55,7 +55,7 @@ footer {
 
 .stack-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px 30px;
     margin: 20px 0;
     padding: 0px 15px;
@@ -150,14 +150,14 @@ footer {
     .card-conteudo {
         flex-direction: row;
     }
-
-    .stack-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 
 @media (min-width: 1720px) {
     .card {
         width: 60%;
+    }
+
+    .stack-grid {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
