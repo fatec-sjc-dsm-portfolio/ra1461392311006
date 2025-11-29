@@ -144,6 +144,11 @@ footer {
     font-weight: bold;
 }
 
+#Experiencia>.card-conteudo {
+    display: flex;
+    flex-direction: column !important;
+}
+
 .card-conteudo {
     display: flex;
     flex-direction: column;
